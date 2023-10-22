@@ -6,7 +6,7 @@ body {
 .topnav {
     position: fixed;
     overflow: hidden;
-    background-color: #2b2626;
+    background-color: #111;
     height: 50px;
     width: 100%;
     top: 0;
@@ -20,48 +20,29 @@ body {
     margin-right: 16px;
     font-size: 17px;
 }
-nav ul {
-	margin: 0;
-	padding: 0;
+.sidenav {
 	height: 100%;
-	width: 260px;
+	width: 250px;
 	position: fixed;
-	top: 50px;
+	z-index: 1;
+	top: 0;
 	left: 0;
-	background-color: #2b2626;
-}
-nav ul li {
-	list-style: none;
-}
-nav ul li a {
-	display: block;
-	font-family: 'Montserrat', sans-serif;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 20px;
+  }
+  
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
 	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 18px;
-	color: #fff;
-	position: relative;
-    text-align: left;
-	padding: 25px 0 25px 38px;
-}
-nav ul li a:before {
-	content: '';
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	width: 0%;
-	height: 100%;
-	background: whitesmoke;
-	border-radius: 40px 0px 0px 40px;
-	z-index: -1;
-	transition: all 300ms ease-in-out;
-}
-nav ul li a:hover {
-	color: #2b2626;
-}
-nav ul li a:hover:before {
-	width: 95%;
-}
+	font-size: 25px;
+	color: #818181;
+	display: block;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
 #home {
 	background-image: url(../images/pic.jpg);
 	background-size: cover;
@@ -146,4 +127,15 @@ nav ul li a:hover:before {
 }
 #programcore, #programelective, #universitycore, #universityelective {
 	display: none;
+}
+.resourceList{
+	margin-top: 50px;
+	margin-left: 290px;
+}
+.text{
+	position: absolute;
+}
+.list{
+	position: relative;
+	margin-top: 100px;
 }
