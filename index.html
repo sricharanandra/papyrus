@@ -12,27 +12,15 @@
     <div class="topnav">
         <input type="text" placeholder="Search..">
     </div>
-	<nav>
-		<ul>
-			<li class="logo"><img alt="" src="./images/xyz.png"></li>
-			<li>
-				<a href="#home" onclick="showHome()"><i class=""></i>  home</a>
-			</li>
-			<li>
-				<a href="#programcore" onclick="toggleVisibility('programcore')"><i class=""></i>  Program core</a>
-			</li>
-			<li>
-				<a href="#programelective"onclick="toggleVisibility('programelective')"><i class=""></i>  Program Elective</a>
-			</li>
-			<li>
-				<a href="#universitycore"onclick="toggleVisibility('universitycore')"><i class=""></i>  University core</a>
-			</li>
-			<li>
-				<a href="#universityelective"onclick="toggleVisibility('universityelective')"><i class=""></i>  University elective</a>
-			</li>
-            
-		</ul>
-	</nav>
+	<div class="sidenav">
+        <li class="logo"><img alt="" src="./images/xyz.png"></li>
+        <a href="#home" onclick="showHome()">Home</a>
+        <a href="#programcore" onclick="toggleVisibility('programcore')">Program Core</a>
+        <a href="#programelective" onclick="toggleVisibility('programelective')">Program Elective</a>
+        <a href="#universitycore" onclick="toggleVisibility('universitycore')">University Core</a>
+        <a href="#universityelective" onclick="toggleVisibility('universityelective')">University Elective</a> 
+    </div>
+      
     <section id="home">
 	    <div class="wrapper">
 	    	<div class="section">
@@ -148,11 +136,16 @@
         </div>
     </section>
 
-    <section id="DSA">
+    <section class="resourceList" id="DSA">
         <div class="dash-content">
             <div class="overview">
                 <div class="title">
                     <span class="text">Data Structures And Algorithms</span>
+                    <div>
+                    <ul class="list">
+                        <li><a href="./pdfs/Python TEE 2023.pdf" target="_blank">Summer Semester</a></li>
+                    </ul>
+                    </div>
                 </div>
             </div>
         </div>
