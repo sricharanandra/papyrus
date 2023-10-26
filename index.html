@@ -1,156 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-    <meta viewport="width=device-width, initial-scale=1.0">
-	<title>PAPYRUS</title>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-	<link href="./css/style.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta viewport="width=device-width, initial-scale=1.0" />
+    <title>PAPYRUS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="topnav">
-        <input type="text" placeholder="Search..">
+      <input type="text" placeholder="Search.." />
     </div>
-	<div class="sidenav">
-        <li class="logo"><img alt="" src="./images/xyz.png"></li>
-        <a href="#home" onclick="showHome()">Home</a>
-        <a href="#programcore" onclick="toggleVisibility('programcore')">Program Core</a>
-        <a href="#programelective" onclick="toggleVisibility('programelective')">Program Elective</a>
-        <a href="#universitycore" onclick="toggleVisibility('universitycore')">University Core</a>
-        <a href="#universityelective" onclick="toggleVisibility('universityelective')">University Elective</a> 
+    <div class="sidenav">
+      <li class="logo">
+        <h1 class="title">
+          <span
+            ><span class="papy">PAPY</span><span class="rus">RUS</span></span
+          >
+        </h1>
+      </li>
+      <a href="#home" onclick="showHome()">Home</a>
+      <a href="#programcore" onclick="toggleVisibility('programcore')"
+        >Program Core</a
+      >
+      <a href="#programelective" onclick="toggleVisibility('programelective')"
+        >Program Elective</a
+      >
+      <a href="#universitycore" onclick="toggleVisibility('universitycore')"
+        >University Core</a
+      >
+      <a
+        href="#universityelective"
+        onclick="toggleVisibility('universityelective')"
+        >University Elective</a
+      >
     </div>
-      
+
     <section id="home">
-	    <div class="wrapper">
-	    	<div class="section">
-	    		<div class="box-area">
-	    			<h2 style="color: whitesmoke">papyrus</h2>
-	    		</div>
-	    	</div>
-	    </div>
+      <div class="wrapper">
+        <div class="section">
+          <div class="box-area">
+            <h2 style="color: whitesmoke">
+              <span
+                ><span class="papy">PAPY</span
+                ><span class="rus">RUS</span></span
+              >
+            </h2>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="programcore">
-        <div class="dash-content">
-            <div class="overview">
-                <div class="title">
-                    <span class="text">Program Core</span>
-                </div>
-                <div class="boxes">
-                    <div class="box box1">
-                        <span class="text"><a href="#DSA" onclick="toggleVisibility('DSA')">Data Structures and Algorithms</a></span>
-                    </div>
-                    <div class="box box1">
-                    	<span class="text">Operating System</span>
-                  	</div>
-                  	<div class="box box1">
-                    	<span class="text">Python Programming</span>
-                	</div>
-                	<div class="box box1">
-                  		<span class="text">Digital Logic Design</span>
-	              	</div>
-                    
-                </div>
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <span class="text"
+              ><span class="program">PROGRAM</span
+              ><span class="elective"> CORE</span></span
+            >
+          </div>
+          <div class="boxes">
+            <div class="box box1">
+              <span class="text"
+                ><a href="#DSA" onclick="toggleVisibility('DSA')"
+                  >Data Structures and Algorithms</a
+                ></span
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
-	<section id="programelective">
-        <div class="dash-content">
-            <div class="overview">
-                <div class="title">
-                    <span class="text">Program Elective</span>
-                </div>
-                <div class="boxes">
-                    <div class="box box1">
-                        <span class="text">Cloud Computing</span>
-                    </div>
-                    <div class="box box1">
-                    	<span class="text">Forensic Science</span>
-                  	</div>
-                  	<div class="box box1">
-                    	<span class="text">Data Visualization</span>
-                	</div>
-                	<div class="box box1">
-                  		<span class="text">Ethical Hacking</span>
-	              	</div>
-                    <div class="box box1">
-                        <span class="text">Knowledge Engineering</span>
-                    </div>
-                    <div class="box box1">
-                        <span class="text">Visualization Essentials</span>
-                    </div>
-					<div class="box box1">
-                        <span class="text">Embedded Systems</span>
-                    </div>
-					<div class="box box1">
-                        <span class="text">Applied Cryptography</span>
-                    </div>
-                </div>
+    <section id="programelective">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <span class="text"
+              ><span class="program">PROGRAM</span
+              ><span class="elective"> ELECTIVE</span></span
+            >
+          </div>
+          <div class="boxes">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="universitycore">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <span class="text"
+              ><span class="program">UNIVERSITY</span
+              ><span class="elective"> CORE</span></span
+            >
+          </div>
+          <div class="boxes">
+            <div class="box box1">
+              <span class="text"
+                ><a href="#IPSAP" onclick="toggleVisibility('IPSAP')"
+                  >Introduction to Problem Solving and Programming</a
+                ></span
+              >
             </div>
-        </div>
-    </section>
-	<section id="universitycore">
-        <div class="dash-content">
-            <div class="overview">
-                <div class="title">
-                    <span class="text">University Core</span>
-                </div>
-                <div class="boxes">
-                    <div class="box box1">
-                        <span class="text">Data Structure And Algorithm</span>
-                    </div>
-                    <div class="box box1">
-                    	<span class="text">Operating System</span>
-                  	</div>
-                  	<div class="box box1">
-                    	<span class="text">Python Programming</span>
-                	</div>
-                	<div class="box box1">
-                  		<span class="text">Digital Logic Design</span>
-	              	</div>
-                </div>
+            <div class="box box1">
+              <span class="text"
+                ><a href="#ETC" onclick="toggleVisibility('ETC')"
+                  >Effective Technical Communication</a
+                ></span
+              >
             </div>
-        </div>
-    </section>
-	<section id="universityelective">
-        <div class="dash-content">
-            <div class="overview">
-                <div class="title">
-                    <span class="text">University Elective</span>
-                </div>
-                <div class="boxes">
-                    <div class="box box1">
-                        <span class="text">Data Structure And Algorithm</span>
-                    </div>
-                    <div class="box box1">
-                    	<span class="text">Operating System</span>
-                  	</div>
-                  	<div class="box box1">
-                    	<span class="text">Python Programming</span>
-                	</div>
-                	<div class="box box1">
-                  		<span class="text">Digital Logic Design</span>
-	              	</div>
-                </div>
+            <div class="box box1">
+              <span class="text"
+                ><a href="#EVS" onclick="toggleVisibility('EVS')"
+                  >Environmental Sustainability</a
+                ></span
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
-
+    <section id="universityelective">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <span class="text"
+              ><span class="program">UNIVERSITY</span
+              ><span class="elective"> ELECTIVE</span></span
+            >
+          </div>
+          <div class="boxes">
+            <div class="box box1">
+              <span class="text"
+                ><a href="#DDE" onclick="toggleVisibility('DDE')"
+                  >Differential and Difference Equations</a
+                ></span
+              >
+            </div>
+            <div class="box box1">
+              <span class="text"
+                ><a href="#ANM" onclick="toggleVisibility('ANM')"
+                  >Applied Numerical Methods</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="resourceList" id="DSA">
-        <div class="dash-content">
-            <div class="overview">
-                <div class="title">
-                    <span class="text">Data Structures And Algorithms</span>
-                    <div>
-                    <ul class="list">
-                        <li><a href="./pdfs/Python TEE 2023.pdf" target="_blank">Summer Semester</a></li>
-                    </ul>
-                    </div>
-                </div>
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <h2>Data Structures And Algorithms</h2>
+            <div class="semester-list">
+              <ul>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <script src="./js/main.js"></script>
-</body>
+    <section class="resourceList" id="IPSAP">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <h2>Introduction to Problem Solving and Programming</h2>
+            <div class="semester-list">
+              <ul>
+                <li>
+                  <a href="pdfs/Introduction to Problem Solving and Programming/MidTerm2022 Pranjali Malviya.pdf" target="_blank"
+                    >Mid-term Summer Semester 2022 Pranjali Malviya</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Introduction to Problem Solving and Programming/TEE Pranjali Malviya.pdf" target="_blank"
+                    >TEE Summer Semester 2022 Pranjali Malviya</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Introduction to Problem Solving and Programming/MidTerm Divya Thakur.pdf" target="_blank"
+                    >Mid-term Summer Semester 2022 Divya Thakur</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Introduction to Problem Solving and Programming/TEE Divya Thakur.pdf" target="_blank"
+                    >TEE Summer Semester 2022 Divya Thakur</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resourceList" id="ETC">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <h2>Effective Technical Communication</h2>
+            <div class="semester-list">
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resourceList" id="EVS">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <h2>Environmental Sustainability</h2>
+            <div class="semester-list">
+              <ul>
+                <li>
+                  <a href="pdfs/Environmental Sustainability/MidTerm Ashok Kumar Baral.pdf" target="_blank"
+                    >Mid-term Summer Semester 2022 Ashok Kumar Baral</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Environmental Sustainability/TEE Ashok Kumar Baral.pdf" target="_blank"
+                    >TEE Summer Semester 2022 Ashok Kumar Baral</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Environmental Sustainability/MidTerm Anita Yadav.pdf" target="_blank"
+                    >Mid-term Summer Semester 2022 Anita Yadav</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Environmental Sustainability/TEE Anita Yadav.pdf" target="_blank"
+                    >TEE Summer Semester 2022 Anita Yadav</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resourceList" id="DDE">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <h2>Differential and Difference Equations</h2>
+            <div class="semester-list">
+              <ul>
+                <li>
+                  <a href="pdfs/Difference and Differential Equations/MidTerm Nilam Venkatakoteshwarao.pdf" target="_blank"
+                    >Mid-term Summer Semester 2022 Nilam Venkatakoteshwararao</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Difference and Differential Equations/TEE Nilam Venkatakoteshwarao.pdf" target="_blank"
+                    >TEE Summer Semester 2022 Nilam Venkatakoteshwararao</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Difference and Differential Equations/MidTerm Harish Chandra.pdf" target="_blank"
+                    >Mid-term Summer Semester 2022 Harish Chandra</a
+                  >
+                </li>
+                <li>
+                  <a href="pdfs/Difference and Differential Equations/TEE Harish Chandra.pdf" target="_blank"
+                    >TEE Summer Semester 2022 Harish Chandra</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resourceList" id="ANM">
+      <div class="dash-content">
+        <div class="overview">
+          <div class="title">
+            <h2>Applied Numerical Methods</h2>
+            <div class="semester-list">
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
 </html>
+   
