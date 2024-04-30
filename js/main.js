@@ -18,3 +18,6 @@ function showHome() {
   document.getElementById("home").style.display = "block";
   currentSection = "home";
 }
+
+let a = 10;
+console.log(a);
